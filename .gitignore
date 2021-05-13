@@ -1,6 +1,9 @@
 # .env
 src/main/java/.env
 
+# .DS_Store
+.DS_Store
+
 # Compiled class file
 *.class
 
