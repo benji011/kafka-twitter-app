@@ -1,3 +1,6 @@
+# .env
+src/main/java/.env
+
 # Compiled class file
 *.class
 
