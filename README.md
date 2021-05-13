@@ -2,6 +2,20 @@
 
 A Proof Of Concept Kafka app that uses [Hosebird Client](https://github.com/twitter/hbc) to fetch Tweets from the Twitter API in the producer and then sends messages to the consumer in Kafka.
 
+### Prerequisites
+Set up your environment variables by renaming `.env.example` to `.env`
+
+Obtain your consumer + access keys/secrets from [Twitter Developers](https://developer.twitter.com/)
+
+```bash
+CONSUMER_API_KEY=
+CONSUMER_API_SECRET=
+CONSUMER_BEARER_TOKEN=
+ACCESS_TOKEN=
+ACCESS_TOKEN_SECRET=
+```
+
+
 ### Creating the Tweet topic
 
 ```bash
