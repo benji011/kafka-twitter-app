@@ -18,14 +18,6 @@ public final class Constants {
   public static final String ACCESS_TOKEN = System.getenv("ACCESS_TOKEN");
   public static final String ACCESS_TOKEN_SECRET = System.getenv("ACCESS_TOKEN_SECRET");
 
-  // ElasticSearch credentials
-  public static final String ELASTIC_SEARCH_ACCESS_KEY = System.getenv("ELASTIC_SEARCH_ACCESS_KEY");
-  public static final String ELASTIC_SEARCH_ACCESS_SECRET = System.getenv("ELASTIC_SEARCH_ACCESS_SECRET");
-
-  public static final String ELASTIC_SEARCH_HOSTNAME = System.getenv("ELASTIC_SEARCH_HOSTNAME");
-  public static final String ELASTIC_SEARCH_USERNAME = System.getenv("ELASTIC_SEARCH_USERNAME");
-  public static final String ELASTIC_SEARCH_PASSWORD = System.getenv("ELASTIC_SEARCH_PASSWORD");
-
   // Terms
-  public static final List<String> TWITTER_TERMS = Lists.newArrayList("kafka");
+  public static final List<String> TWITTER_TERMS = Lists.newArrayList("Brexit", "brexit");
 }
